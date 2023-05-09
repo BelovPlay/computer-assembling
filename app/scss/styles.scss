@@ -1,0 +1,198 @@
+@font-face {
+    font-family:Roboto;
+    src: url('../fonts/Roboto-Black.woff2');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    max-width:1920px;
+    border:1px solid black;
+    margin:auto;
+}
+.main{
+    background:url('../images/dist/background-main.svg') no-repeat;
+    height:960px;
+}
+.header{
+    padding-top:40px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom:225px;
+}
+.menu__list-items{
+    display:flex;
+    list-style-type:none;
+}
+.menu__item{
+    margin-left:60px;
+}
+.menu__item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.menu__link{
+    text-decoration: none;
+    color:#fff;
+}
+.btn__sign-in{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+    display:block;
+    text-align: center;
+    padding:15px 30px;
+    text-decoration: none;
+    color:#fff;
+}
+.main__text{
+    margin-left: 312px;
+}
+.main__title{
+    color:#fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    margin-bottom:57px;
+}
+.main__timer{
+    display:flex;
+    align-items: center;
+}
+.timer__days,.timer__hours,.timer__minutes,.timer__seconds{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #121212;
+    margin-right: 30px;
+    padding-top:20px;
+}
+.timer__time{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.timer__time{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.4;
+}
+.main__bottom{
+    margin-top:160px;
+    background-color:#121212;
+}
+.main__bottom-content{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.btn__order-course{
+    margin-left:170px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    display:block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    margin-top:43px;
+    margin-bottom: 43px;
+}
+.students-list-items{
+    margin-left: -150px;
+    display:flex;
+    list-style-type:none;
+    flex-direction:column;
+}
+.students__item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color:rgba(255,255,255,0.4);
+    display:flex;
+    justify-content:space-between;
+    width: 250px;
+    margin-bottom:10px;
+}
+.students__item span{
+    color:#fff;
+}
+.earned-students__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color:rgba(255,255,255,0.4);
+    margin-bottom:10px;
+}
+.earned-students__text span{
+    color:#fff;
+    margin-left: 30px;
+}
+.progress{
+    display:flex;
+    flex-direction:column;
+}
+.progress-line{
+    width:714px;
+    height:6px;
+    background-color:#fff;
+}
+.progress-made{
+    width: 50%;
+    display:block;
+    height: 100%;
+    background:linear-gradient(#DF5950, #451046);
+}
+.progress-counters{
+    margin-top:15px;
+    display:flex;
+    justify-content:space-between;
+}
+.progress-start,.progress-end{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
